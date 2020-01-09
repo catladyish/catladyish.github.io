@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:600|Source+Sans+Pro&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ibarra Real Nova', serif;
+  background-color: #274156;
+  color: white;
+}
+
+hr {
+  width: 65%;
+  border-color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#top-block {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.site {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 25vw;
+  border: solid 1px white;
+  padding: 10px;
+  border-radius: 15px;
+  line-height: 25px;
+  margin: 25px;
+}
+
+.site >a> img {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.site:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+
+@media only screen and (max-width: 875px) {
+  .site {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .site {
+    width: 75vw;
+  }
+}
